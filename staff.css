@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: YuGothic, "游ゴシック", "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", sans-serif;
+  background-color: #008080;
+  font-size: 14px;
+}
+
+span.red {
+  color: red;
+}
+
+header {
+  background-image: url("football.pic.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+#logo {
+  padding: 90px 90px;
+  text-align: center;
+}
+
+#logo img {
+  max-width:120px;
+  border: 10px solid #ddd;
+  border-radius: 30%;
+}
+
+#logo h1 {
+  letter-spacing: 0.20em;
+  color: #fff;
+  text-shadow: 1px 1px 0px #ddd;
+}
+
+nav {
+  margin: 0px 0px 30px 0px;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+nav ul {
+  background-color: #fff;
+  margin: 10px 60px;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px 60px;
+  display: inline-block;
+}
+
+nav ul li a {
+  padding: 15px 10px;
+  text-decoration: none;
+  color: #999;
+  font-weight: bold;
+}
+
+nav ul li a.selected {
+  color: #000;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0px auto 0;
+  background-color: #fff;
+}
+
+section {
+  padding: 30px 20px;
+}
+
+section h2 {
+  padding: 10px 0 20px 0;
+  text-align: center;
+  letter-spacing: 0.15em;
+}
+
+footer {
+  padding: 20px 0;
+  font-size: 93%;
+  text-align: center;
+  background-color: #ccc;
+  color: #666;
+}
